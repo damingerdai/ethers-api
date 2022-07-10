@@ -1,3 +1,5 @@
 geth/
+geth.ipc
 keystore/
-node_moudles/
+node_modules/
+dist/
