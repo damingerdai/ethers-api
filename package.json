@@ -1,0 +1,21 @@
+{
+  "name": "ethers-api",
+  "version": "0.0.0",
+  "description": "a api for ethereum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/damingerdai/ethers-api"
+  },
+  "keywords": [
+    "ethers",
+    "nodejs",
+    "typescript",
+    "ethereum"
+  ],
+  "author": "arthur ming",
+  "license": "MIT"
+}
