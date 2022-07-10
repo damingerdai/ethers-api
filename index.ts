@@ -5,8 +5,10 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const chainUrl = 'http://' + chainConfig.nodeAddr + ':' + chainConfig.gethPort;
+const address = chainConfig.defaultCoinbase;
 const ethers = new Ethers(chainUrl);
+const balance = await ethers.getBalance(address);
 
-const accounts = await ethers.listAccounts();
+console.log(balance);
 
-console.log(accounts);
+console.log(typeof balance);
