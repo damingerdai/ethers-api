@@ -12,3 +12,8 @@ const balance = await ethers.getBalance(address);
 console.log(balance);
 
 console.log(typeof balance);
+
+const keystore1 = await ethers.createKeystore('1');
+const keystore2 = await ethers.createKeystore('1');
+console.log(keystore1);
+console.log(keystore2);

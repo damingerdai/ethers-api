@@ -3,3 +3,4 @@ geth.ipc
 keystore/
 node_modules/
 dist/
+coverage/
