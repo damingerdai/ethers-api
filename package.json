@@ -8,6 +8,8 @@
     "ts-node": "node --max_old_space_size=4096 --experimental-specifier-resolution=node --loader ts-node/esm",
     "build": "tsc",
     "start": "yarn ts-node --require dotenv/config index.ts",
+    "truffle:compile": "truffle compile --config truffle-config.cjs",
+    "truffle:migrate": "truffle migrate --reset --config truffle-config.cjs",
     "test": "node --experimental-vm-modules node_modules/.bin/jest  --coverage",
     "test:watch": "jest --watch"
   },
@@ -32,6 +34,8 @@
     "@types/node": "^18.0.3",
     "crypto-random-string": "^5.0.0",
     "jest": "^28.1.2",
+    "solc": "^0.8.15",
+    "truffle": "^5.5.21",
     "ts-jest": "^28.0.5",
     "ts-node": "^10.8.2",
     "tslib": "^2.4.0",

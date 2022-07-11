@@ -17,3 +17,9 @@ const keystore1 = await ethers.createKeystore('1');
 const keystore2 = await ethers.createKeystore('1');
 console.log(keystore1);
 console.log(keystore2);
+
+const blockNumber = await ethers.getBlockNumber();
+
+console.log(blockNumber);
+
+console.log(await ethers.listHistory(chainConfig.defaultCoinbase));
