@@ -3,7 +3,7 @@ module.exports = {
     development: {
       host: '127.0.0.1', //节点地址，如果私有链一般是本机
       port: 8545,  //节点rpc端口
-      network_id: '10' // 自定义网络号
+      network_id: '*' // 自定义网络号
     }
   },
   rinkeby: {

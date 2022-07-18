@@ -9,7 +9,7 @@
     "build": "tsc",
     "start": "yarn ts-node --require dotenv/config index.ts",
     "truffle:compile": "truffle compile --config truffle-config.cjs",
-    "truffle:migrate": "truffle migrate --reset --config truffle-config.cjs",
+    "truffle:migrate": "truffle migrate --config truffle-config.cjs",
     "test": "node --experimental-vm-modules node_modules/.bin/jest  --coverage",
     "test:watch": "jest --watch"
   },

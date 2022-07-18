@@ -53,7 +53,7 @@ export class Ethers {
 
   async listHistory(address: string) {
     //this.provider
-    const tx = await this.provider.getTransaction("0xd47b1727a4a0b67ac3a9c1118d84de0d53f660a19d1145523181026b4dcbc31d");
+    const tx = await this.provider.getTransaction(address);
     console.log(tx);
   }
 }
